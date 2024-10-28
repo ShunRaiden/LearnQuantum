@@ -247,6 +247,47 @@ MonoBehaviour:
         ColliderIndex: 4
         MutableMode: 0
       MutableMode: 0
+    - Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 65536
+      Position:
+        X:
+          RawValue: 734003
+        Y:
+          RawValue: 55705
+        Z:
+          RawValue: 432537
+      PhysicsMaterial:
+        Id:
+          Value: 0
+      ShapeType: 2
+      SphereRadius:
+        RawValue: 0
+      BoxExtents:
+        X:
+          RawValue: 222057
+        Y:
+          RawValue: 865631
+        Z:
+          RawValue: 12816
+      SmoothSphereMeshCollisions: 0
+      StaticData:
+        Name: BoxStaticCollider (4)
+        Tag: Untagged
+        Layer: 0
+        Asset:
+          Id:
+            Value: 0
+        IsTrigger: 1
+        ColliderIndex: 5
+        MutableMode: 0
+      MutableMode: 0
     MapEntities: []
   Prototypes:
   - GameSession: []
@@ -342,9 +383,7 @@ MonoBehaviour:
     PhysicsJoints2D: []
     PhysicsJoints3D: []
   - GameSession:
-    - State:
-        Value: 0
-      TimeUntilStart:
+    - TimeUntilStart:
         RawValue: 327680
     PlayerLink: []
     CharacterController2D: []
