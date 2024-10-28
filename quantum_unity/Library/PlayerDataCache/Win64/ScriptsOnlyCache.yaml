@@ -1,0 +1,2003 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp:
+    - PlayerHandler
+    - Quantum.Demo.PhotonAppVersions
+    - Quantum.Demo.PhotonPrivateAppVersion
+    - Quantum.Demo.PhotonRegions
+    Assembly-CSharp.dll:
+    - CustomCallbacks
+    - LocalInput
+    - Quantum.Demo.PhotonAppVersions
+    - Quantum.Demo.PhotonRegions
+    - Quantum.Demo.RuntimeConfigContainer
+    - Quantum.Demo.UIAutoMenu
+    - Quantum.Demo.UIConnect
+    - Quantum.Demo.UIConnecting
+    - Quantum.Demo.UIDialog
+    - Quantum.Demo.UIDropdownItemSelectionColor
+    - Quantum.Demo.UIDropdownToggle
+    - Quantum.Demo.UIFooter
+    - Quantum.Demo.UIGame
+    - Quantum.Demo.UIMain
+    - Quantum.Demo.UIReconnecting
+    - Quantum.Demo.UIRoom
+    - Quantum.Demo.UIRoomPlayer
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineFramingTransposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineVirtualCamera
+    PhotonQuantum:
+    - BinaryDataAsset
+    - CharacterController2DConfigAsset
+    - CharacterController3DConfigAsset
+    - DeterministicSessionConfigAsset
+    - EntityComponentCharacterController3D
+    - EntityComponentPlayerLink
+    - EntityPrototype
+    - EntityPrototypeAsset
+    - EntityView
+    - EntityViewAsset
+    - MapAsset
+    - NavMeshAgentConfigAsset
+    - PhotonServerSettings
+    - PhysicsMaterialAsset
+    - Quantum.AssetResourceContainer
+    - QuantumEditorSettings
+    - QuantumMemoryStats
+    - QuantumMultiClientPlayerView
+    - QuantumMultiClientRunner
+    - QuantumStats
+    - SimulationConfigAsset
+    PhotonQuantum.dll:
+    - BinaryDataAsset
+    - EntityPrototype
+    - EntityView
+    - EntityViewUpdater
+    - MapAsset
+    - MapData
+    - QuantumEditorSettings
+    - QuantumMemoryStats
+    - QuantumRunnerLocalDebug
+    - QuantumStaticBoxCollider3D
+    - QuantumStats
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
+    - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineWindow
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.AspectRatioFitter
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Assembly-CSharp:
+    - Quantum.Demo.PhotonRegions/RegionInfo
+    Cinemachine:
+    - Cinemachine.CinemachineBlendDefinition
+    - Cinemachine.CinemachineBrain/BrainEvent
+    - Cinemachine.CinemachineBrain/VcamActivatedEvent
+    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
+    - Cinemachine.LensSettings
+    PhotonDeterministic:
+    - Photon.Deterministic.DeterministicSessionConfig
+    - Photon.Deterministic.FP
+    - Photon.Deterministic.FPQuaternion
+    - Photon.Deterministic.FPVector2
+    - Photon.Deterministic.FPVector3
+    - Photon.Deterministic.NullableFP
+    PhotonQuantum:
+    - EntityPrototype/InitialNavMeshTargetInfo
+    - EntityPrototype/NavMeshAvoidanceAgentInfo
+    - EntityPrototype/NavMeshPathfinderInfo
+    - EntityPrototype/NavMeshSpec
+    - EntityPrototype/NavMeshSteeringAgentInfo
+    - EntityPrototype/OverrideFP
+    - EntityPrototype/PhysicsBodyGeneric
+    - EntityPrototype/PhysicsColliderGeneric
+    - EntityPrototype/Transform2DVerticalInfo
+    - EntityView/EntityUnityEvent
+    - Quantum.AssetResourceContainer/AssetResourceInfoGroup_AssetBundle
+    - Quantum.AssetResourceContainer/AssetResourceInfoGroup_Resources
+    - Quantum.AssetResourceContainer/AssetResourceInfo_Resources
+    - Quantum.QuantumGizmoStyle
+    - QuantumEditorSettings/GizmosMode
+    - QuantumMapDataBakeFlags
+    - QuantumRunnerLocalDebug/DynamicAssetDBSettings
+    - QuantumRunnerLocalDebug/DynamicAssetDBSettings/InitialDynamicAssetsRequestedUnityEvent
+    - QuantumStaticColliderSettings
+    - QuantumToolbarZone
+    PhotonRealtime:
+    - Photon.Realtime.AppSettings
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionDataList
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+    quantum.code:
+    - Quantum.AssetRefSimulationConfig
+    - Quantum.InstantReplaySettings
+    - Quantum.Prototypes.FlatEntityPrototypeContainer
+    - Quantum.Prototypes.PlayerLink_Prototype
+    - Quantum.RuntimeConfig
+    - Quantum.RuntimePlayer
+    - Quantum.SimulationConfig
+    quantum.core:
+    - Quantum.Allocator.HeapTrackingMode
+    - Quantum.AssetGuid
+    - Quantum.AssetObjectIdentifier
+    - Quantum.AssetRef
+    - Quantum.AssetRefBinaryData
+    - Quantum.AssetRefCharacterController2DConfig
+    - Quantum.AssetRefCharacterController3DConfig
+    - Quantum.AssetRefEntityPrototype
+    - Quantum.AssetRefEntityView
+    - Quantum.AssetRefMap
+    - Quantum.AssetRefNavMesh
+    - Quantum.AssetRefNavMeshAgentConfig
+    - Quantum.AssetRefPhysicsMaterial
+    - Quantum.AssetRefPolygonCollider
+    - Quantum.BinaryData
+    - Quantum.CallbackFlags_Wrapper
+    - Quantum.CharacterController2DConfig
+    - Quantum.CharacterController3DConfig
+    - Quantum.Core.FrameBase/EntitiesConfig
+    - Quantum.EntityPrototype
+    - Quantum.EntityPrototypeContainer
+    - Quantum.EntityView
+    - Quantum.LayerMask
+    - Quantum.Map
+    - Quantum.MapStaticCollider3D
+    - Quantum.NavMeshAgentConfig
+    - Quantum.Navigation/AvoidanceQuality
+    - Quantum.Navigation/AvoidanceType
+    - Quantum.Navigation/Config
+    - Quantum.Navigation/MovementType
+    - Quantum.Navigation/PathQuality
+    - Quantum.Navigation/RawPathAllocationStrategy
+    - Quantum.Navigation/VerticalPositioningType
+    - Quantum.PhysicsBody3D/ConfigFlagsWrapper
+    - Quantum.PhysicsCombineFunction
+    - Quantum.PhysicsCommon/Config
+    - Quantum.PhysicsCommon/ConstraintsSolverType
+    - Quantum.PhysicsMaterial
+    - Quantum.PlayerRef
+    - Quantum.Prototypes.CharacterController3D_Prototype
+    - Quantum.Prototypes.PhysicsBody3D_Prototype
+    - Quantum.Prototypes.PhysicsCallbacks3D_Prototype
+    - Quantum.Prototypes.PhysicsCollider3D_Prototype
+    - Quantum.Prototypes.Transform3D_Prototype
+    - Quantum.RotationFreezeFlags_Wrapper
+    - Quantum.Shape2DConfig
+    - Quantum.Shape3DConfig
+    - Quantum.StaticColliderData
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Quantum.Demo.UIRoom
+    methodName: OnHideRoomOnStartChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerHandler
+    methodName: OnEntityInstantiated
+  sceneClasses:
+    Assets/Photon/QuantumDemo/Game/Game.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16626}
+    - Class: 114
+      Script: {instanceID: 16630}
+    - Class: 114
+      Script: {instanceID: 16674}
+    - Class: 114
+      Script: {instanceID: 16866}
+    - Class: 114
+      Script: {instanceID: 17724}
+    - Class: 114
+      Script: {instanceID: 17786}
+    - Class: 114
+      Script: {instanceID: 17958}
+    - Class: 114
+      Script: {instanceID: 17976}
+    - Class: 114
+      Script: {instanceID: 18336}
+    - Class: 114
+      Script: {instanceID: 18516}
+    - Class: 114
+      Script: {instanceID: 19300}
+    - Class: 114
+      Script: {instanceID: 19542}
+    - Class: 114
+      Script: {instanceID: 20232}
+    - Class: 114
+      Script: {instanceID: 20856}
+    - Class: 114
+      Script: {instanceID: 21292}
+    - Class: 114
+      Script: {instanceID: 21468}
+    - Class: 114
+      Script: {instanceID: 21532}
+    - Class: 114
+      Script: {instanceID: 43692}
+    - Class: 114
+      Script: {instanceID: 43850}
+    - Class: 114
+      Script: {instanceID: 44042}
+    - Class: 114
+      Script: {instanceID: 44130}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Photon/QuantumDemo/Menu/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16626}
+    - Class: 114
+      Script: {instanceID: 16630}
+    - Class: 114
+      Script: {instanceID: 16674}
+    - Class: 114
+      Script: {instanceID: 16764}
+    - Class: 114
+      Script: {instanceID: 16830}
+    - Class: 114
+      Script: {instanceID: 17396}
+    - Class: 114
+      Script: {instanceID: 17558}
+    - Class: 114
+      Script: {instanceID: 17622}
+    - Class: 114
+      Script: {instanceID: 17638}
+    - Class: 114
+      Script: {instanceID: 17698}
+    - Class: 114
+      Script: {instanceID: 17724}
+    - Class: 114
+      Script: {instanceID: 17762}
+    - Class: 114
+      Script: {instanceID: 17776}
+    - Class: 114
+      Script: {instanceID: 17784}
+    - Class: 114
+      Script: {instanceID: 17786}
+    - Class: 114
+      Script: {instanceID: 17958}
+    - Class: 114
+      Script: {instanceID: 17976}
+    - Class: 114
+      Script: {instanceID: 18068}
+    - Class: 114
+      Script: {instanceID: 18084}
+    - Class: 114
+      Script: {instanceID: 18336}
+    - Class: 114
+      Script: {instanceID: 18472}
+    - Class: 114
+      Script: {instanceID: 18474}
+    - Class: 114
+      Script: {instanceID: 18502}
+    - Class: 114
+      Script: {instanceID: 18538}
+    - Class: 114
+      Script: {instanceID: 18966}
+    - Class: 114
+      Script: {instanceID: 19128}
+    - Class: 114
+      Script: {instanceID: 19300}
+    - Class: 114
+      Script: {instanceID: 19416}
+    - Class: 114
+      Script: {instanceID: 19490}
+    - Class: 114
+      Script: {instanceID: 19548}
+    - Class: 114
+      Script: {instanceID: 19632}
+    - Class: 114
+      Script: {instanceID: 19854}
+    - Class: 114
+      Script: {instanceID: 19958}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20056}
+    - Class: 114
+      Script: {instanceID: 20118}
+    - Class: 114
+      Script: {instanceID: 20316}
+    - Class: 114
+      Script: {instanceID: 20562}
+    - Class: 114
+      Script: {instanceID: 20574}
+    - Class: 114
+      Script: {instanceID: 20698}
+    - Class: 114
+      Script: {instanceID: 20790}
+    - Class: 114
+      Script: {instanceID: 20808}
+    - Class: 114
+      Script: {instanceID: 20856}
+    - Class: 114
+      Script: {instanceID: 20866}
+    - Class: 114
+      Script: {instanceID: 20920}
+    - Class: 114
+      Script: {instanceID: 21218}
+    - Class: 114
+      Script: {instanceID: 21292}
+    - Class: 114
+      Script: {instanceID: 21302}
+    - Class: 114
+      Script: {instanceID: 21472}
+    - Class: 114
+      Script: {instanceID: 21532}
+    - Class: 114
+      Script: {instanceID: 21864}
+    - Class: 114
+      Script: {instanceID: 21932}
+    - Class: 114
+      Script: {instanceID: 22030}
+    - Class: 114
+      Script: {instanceID: 22094}
+    - Class: 114
+      Script: {instanceID: 22106}
+    - Class: 114
+      Script: {instanceID: 23408}
+    - Class: 114
+      Script: {instanceID: 44622}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Photon/QuantumDemo/Menu/MenuAuto.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16626}
+    - Class: 114
+      Script: {instanceID: 16630}
+    - Class: 114
+      Script: {instanceID: 16674}
+    - Class: 114
+      Script: {instanceID: 17380}
+    - Class: 114
+      Script: {instanceID: 17558}
+    - Class: 114
+      Script: {instanceID: 17724}
+    - Class: 114
+      Script: {instanceID: 17786}
+    - Class: 114
+      Script: {instanceID: 17976}
+    - Class: 114
+      Script: {instanceID: 18336}
+    - Class: 114
+      Script: {instanceID: 18538}
+    - Class: 114
+      Script: {instanceID: 19300}
+    - Class: 114
+      Script: {instanceID: 19490}
+    - Class: 114
+      Script: {instanceID: 19548}
+    - Class: 114
+      Script: {instanceID: 19958}
+    - Class: 114
+      Script: {instanceID: 20204}
+    - Class: 114
+      Script: {instanceID: 20562}
+    - Class: 114
+      Script: {instanceID: 20574}
+    - Class: 114
+      Script: {instanceID: 20698}
+    - Class: 114
+      Script: {instanceID: 20808}
+    - Class: 114
+      Script: {instanceID: 20856}
+    - Class: 114
+      Script: {instanceID: 21218}
+    - Class: 114
+      Script: {instanceID: 21472}
+    - Class: 114
+      Script: {instanceID: 22094}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 67f2e533bbfe68206e21fd8cf233561c
+    assemblyName: UnityEngine.SpatialTracking
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 40bdadcd1cc14ab9d74347f31c1d4dd2
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: ee1aff18d86cb2b979365fb658bf1602
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: MapData
+  - hash:
+      serializedVersion: 2
+      Hash: 2c7fd418752da30fccc34545a4f4e7b1
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentNavMeshAvoidanceObstacle
+  - hash:
+      serializedVersion: 2
+      Hash: 0c6de72eaf8c1070da824268c4bfad9d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 3296d53d85013bb2d323ff85115e90be
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumTaskRunnerJobs
+  - hash:
+      serializedVersion: 2
+      Hash: 7e93247d600e115dac0cdd880de94e99
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: ad5a5e79025ffa905cf3e2e7cc2df2ff
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: NavMeshAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b648d678e23bea20470bc8c2d62dbaad
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: PolygonColliderAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 85359c63b02743302892407fcf45f7b7
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: MapNavMeshDefinition
+  - hash:
+      serializedVersion: 2
+      Hash: dc52d502ba894dce3484fccc1452bf68
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticPolygonCollider2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3cba2cd67c8fd3dbff56deaee57ed1a3
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsJoints3D
+  - hash:
+      serializedVersion: 2
+      Hash: a70ea4fd6a877abeb2998120346825ad
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIAutoMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 29695d90446c68c512ad269f3c6166d4
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: BinaryDataAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f3f9d282ad879d4b022a5ecfbe46af05
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentView
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 52db48e3be0a2b4f8b06f918fd1ebfbc
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 178610806884fe8d8d6f10975628c82c
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIConnect
+  - hash:
+      serializedVersion: 2
+      Hash: c14151fbf935c47f880bbf67c65ccdfe
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumRunnerLocalSavegame
+  - hash:
+      serializedVersion: 2
+      Hash: a174062a5e2cc4fd412c84c4ba96acea
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIRoomPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: f172e6128a3242d56f5514cdfd3956b5
+    assemblyName: UnityEngine.Advertisements
+    namespaceName: UnityEngine.Advertisements
+    className: Placeholder
+  - hash:
+      serializedVersion: 2
+      Hash: 12c96dc2ca56f49833ef29c24dcf3939
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentNavMeshAvoidanceAgent
+  - hash:
+      serializedVersion: 2
+      Hash: 3f0249ef9f292c28b709367fb9de0f36
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: CharacterController3DConfigAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 09185e5a07f6411ce67e15d0ba2ab46f
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsBody2D
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddf94363c6ce4b02d9fdd51290cb0f9
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 61a9b91fafb1a23b997d40ddb2103353
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: SimulationConfigAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1632bf59a52126244f2572b1aa5891f6
+    assemblyName: PhotonQuantum
+    namespaceName: Quantum
+    className: AssetResourceContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3597bf224e410b6dc847a9b2598a78
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumMemoryStats
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 9fe55d4a923902aa9d49d34ca9efeef2
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityPrototypeBakedAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 1c9f9ad6b103760854f7aede802075ac
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityView
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: c05beff2e9c0be05241cbb3907f5009b
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticTerrainCollider3D
+  - hash:
+      serializedVersion: 2
+      Hash: 23d9bb5e02161ca505529369894b18e1
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIMain
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 85de0c7aa4ee78401516a45eeca966bb
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticMeshCollider3D
+  - hash:
+      serializedVersion: 2
+      Hash: 5b8b7230ad968399f6726aa1269dcdcb
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 4ca283281ec992c1aadfc0b6d1d37016
+    assemblyName: UnityEngine.Advertisements
+    namespaceName: UnityEngine.Advertisements.Platform.Editor
+    className: BannerPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: e04a95f2e0fbda4456a1f7b13b552e66
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumFrameDiffer
+  - hash:
+      serializedVersion: 2
+      Hash: d382a9ec908ecb89e89510f5138ebace
+    assemblyName: UnityEngine.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: CodelessIAPButton
+  - hash:
+      serializedVersion: 2
+      Hash: 960935b102b3064f4b924de16426e340
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d59132c25d7aa29eb2d6754f263592b4
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsCallbacks2D
+  - hash:
+      serializedVersion: 2
+      Hash: 679e10b522f5e05266ba47384c1e17e8
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStats
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4e63206260cb6c62cb54166e95b983
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentTransform3D
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3669dd2c6603adec119c52e3dc8c4be3
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumMultiClientRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 1fd174513b970f297c89b597337d66b9
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIReconnecting
+  - hash:
+      serializedVersion: 2
+      Hash: 397ec7a04d12b83224b33f1f15988a45
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: NavMeshAgentConfigAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 40d81d2b88277f9c83e09d55c9e89d9b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LocalInput
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 042785b832afb73fd0585521aa7baf43
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: c933b590b3badb5918fa01e73cd5cc0c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 0d747ec795ab2152db7f0cf9c5cef80b
+    assemblyName: Unity.Services.Analytics
+    namespaceName: Unity.Services.Analytics
+    className: AnalyticsContainer
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 54c208c0cb063ee15efc73d08fbe2920
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIRoom
+  - hash:
+      serializedVersion: 2
+      Hash: 9078325c2a6f6a2d9612ade897511860
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 54a869efd103d2dc205c0db7354c0481
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentNavMeshPathfinder
+  - hash:
+      serializedVersion: 2
+      Hash: 99c9b5749aa9dac3c9b80d19a172a89c
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 4c0cd7aec0e404bae09579280d7bbc89
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsCollider3D
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8a2f78c25d5e92eb97ee5544a162a2e9
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: a47182e2cc4ad3e76939204f5ef61278
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9295dc248c14c06a9b35c87d6d3b67cc
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: PhotonAppVersions
+  - hash:
+      serializedVersion: 2
+      Hash: 47ee34eb8b6021efa0289dbbb17a5a85
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: eb3689ba55543e2ebdd1aed67d41538a
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: ee7c095dec07b3872092146f775e2816
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 779643854e4c0cbb2551233666ee4361
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumRunnerLocalDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 061a5d77ce0aa52a60c21c566c6d8af2
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 6558344388d619eeebe8cc933c987e01
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumEditorSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d55992199bd2f5a5502658391cdf8ba7
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 69295e9f968bf405a2dd66fe7c148308
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: PhotonServerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 42192f5e950f09978986994e19d2bd78
+    assemblyName: UnityEngine.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing
+    className: LifecycleNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 538703593f8b413ec56375cd420229aa
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumMultiClientPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: c32a07e0d187a5f68f515d40bbeb99dc
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: RuntimeConfigContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 333ba16d27d8169f0e8f32c98d1445ee
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumInputRecorderStarter
+  - hash:
+      serializedVersion: 2
+      Hash: d2b8d2c0e66ce4fe8aee762d94658ca2
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIDropdownToggle
+  - hash:
+      serializedVersion: 2
+      Hash: ba00b71223ebd61c71dd8f98d1533c32
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityPrototypeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c0860b58524901513a58db061586e812
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: MapNavMeshDebugDrawer
+  - hash:
+      serializedVersion: 2
+      Hash: 6efe1381965500046b3288c72f463e26
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumPrefabAsset_Resource
+  - hash:
+      serializedVersion: 2
+      Hash: 348c3eed4aeaae58544fcb151bb1f696
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIConnecting
+  - hash:
+      serializedVersion: 2
+      Hash: 88c5f3cf1db9dc6fe9fcd7cca43d0fda
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsCollider2D
+  - hash:
+      serializedVersion: 2
+      Hash: 32c875d5d5ef23863527e66cc311b8b1
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumMapLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 0c90d8b254c3a87bcb65a13c2eb0f431
+    assemblyName: UnityEngine.Advertisements
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: CoroutineExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: a11c4856c83c909bd9039448a08ab5da
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: PhotonPrivateAppVersion
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 4b04f3ab7f9fdee20dbfe9abc685681c
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: MapNavMeshRegion
+  - hash:
+      serializedVersion: 2
+      Hash: df8a7348de2acc47f21947f18a063da5
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticBoxCollider3D
+  - hash:
+      serializedVersion: 2
+      Hash: c67dfa0afaaf5d77e63332b2e846a5d6
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticEdgeCollider2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9637dcdf3068a91dfe653e61bb82f13d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4ff86dc4f4b9c2f2867d62fe86e3de26
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumSimpleReplaySaver
+  - hash:
+      serializedVersion: 2
+      Hash: 14a623bfa3c61e79df535e4612d10f7e
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: PhysicsMaterialAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e081e91670555e1fcf4a388454e51cd3
+    assemblyName: UnityEngine.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing.Extension
+    className: UnityUtil
+  - hash:
+      serializedVersion: 2
+      Hash: 6f0df95550e4a1fc1b97f423d66cab31
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentTransform2DVertical
+  - hash:
+      serializedVersion: 2
+      Hash: fd8293ddec7600a8322fa8b8ba0f9c0b
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentTransform2D
+  - hash:
+      serializedVersion: 2
+      Hash: a5b55559d192b878c6f4fa76e49db2b6
+    assemblyName: PhotonRealtime
+    namespaceName: Photon.Realtime
+    className: SupportLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 32582b37217e8b8613f77f168ace855c
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: MapNavMeshUnity
+  - hash:
+      serializedVersion: 2
+      Hash: ec16b792f871a053fd2c9beef431755f
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityViewBakedAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 68f2cb287af2eee1f639824485a3402b
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 672716ae97f6ddb615fa5ac3ec9da349
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 4ae52fc541fdf5c48c656bfa13e56776
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIFooter
+  - hash:
+      serializedVersion: 2
+      Hash: 09a9c38ed17a00a317ffbe480887d930
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityViewAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1a6d10a4e7572929ce1037e3d2ff1139
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIDropdownItemSelectionColor
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 92002249603ad29e3944db52a3b8689c
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: CharacterController2DConfigAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0b2c8ab9cb1f1b805095f891688290f0
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticBoxCollider2D
+  - hash:
+      serializedVersion: 2
+      Hash: 07bc9892e96d5f534d103bc7b029471c
+    assemblyName: UnityEngine.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: IAPButton
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 12317e5d89a4cbaf53c1fd82f17b085c
+    assemblyName: UnityEngine.Advertisements
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: ApplicationQuit
+  - hash:
+      serializedVersion: 2
+      Hash: b7e5930de08efb5b037393c8906274c0
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsCallbacks3D
+  - hash:
+      serializedVersion: 2
+      Hash: fac323027fb4ec4263c0d0dcecf071a6
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticSphereCollider3D
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 19824dd35debb3fff0983df49f8359ab
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 830c3b545f6e6ee60a4cebab90516f2c
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f978c6261885e03096d1c22fdbf1b8b1
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsJoints2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 62336288ea33006619b2497e1e5a5a33
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityPrototype
+  - hash:
+      serializedVersion: 2
+      Hash: e74dfae54cfa4aa0e9a6f6d75dbe015c
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumMultiClientPlayerView
+  - hash:
+      serializedVersion: 2
+      Hash: 21d80ebc31a39b758e9d7c0020ec4900
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: TerrainColliderAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 10b41a0e52a62d3bcbd39fbab4076c7d
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumStaticCircleCollider2D
+  - hash:
+      serializedVersion: 2
+      Hash: 59866e38d9acddbe7dad3884fa179781
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityViewUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: abc3bdf5ffd23ab38d3ada27aae9ec65
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumInstantReplayDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 96d6ab2dfb05659c7b224f8193666751
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: MapAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b8029668b933d9d9bf51b944e7f8c4d2
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentCharacterController2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4850b5633f28273d3cd2a0b39bd1e1f9
+    assemblyName: PhotonRealtime
+    namespaceName: Photon.Realtime
+    className: ConnectionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 83447eb14ba5f9222c0f703aabb89c38
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 4188bdcec3bea39da52412cd5949d291
+    assemblyName: UnityEngine.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: IAPListener
+  - hash:
+      serializedVersion: 2
+      Hash: ea20bfb80e6ea89966cf1e37c8fe9bf3
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumPrefabAsset_AssetBundle
+  - hash:
+      serializedVersion: 2
+      Hash: 441cb7aab0419118d53336c6ec913994
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: QuantumRunnerLocalReplay
+  - hash:
+      serializedVersion: 2
+      Hash: fc6a88870d53f2f422de071092620ff3
+    assemblyName: UnityEngine.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing
+    className: UIFakeStoreWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5c23dda62fa165907bd8658c580b08e3
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: PhotonRegions
+  - hash:
+      serializedVersion: 2
+      Hash: 765f046cc9a569357bbb44473131bd44
+    assemblyName: Unity.Analytics.DataPrivacy
+    namespaceName: UnityEngine.Analytics
+    className: DataPrivacyButton
+  - hash:
+      serializedVersion: 2
+      Hash: 890ee44e1abec05a0d3969ae5fc2e9e6
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentCharacterController3D
+  - hash:
+      serializedVersion: 2
+      Hash: 9740467533a00aee3a3f12dd8aea775b
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: DeterministicSessionConfigAsset
+  - hash:
+      serializedVersion: 2
+      Hash: db488a822bb356c767b32d8d608495fa
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPhysicsBody3D
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0bd8f5ff63205c00e5e5842bbe3a2f
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentNavMeshSteeringAgent
+  - hash:
+      serializedVersion: 2
+      Hash: cd0d56673c1f85b3acfbb8be862204f9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: e729b5aa9dd3e577edf6a3eb75b76002
+    assemblyName: Assembly-CSharp
+    namespaceName: Quantum.Demo
+    className: UIGame
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: e6de5811e31475ad5e6d1ea981ab9c78
+    assemblyName: PhotonQuantum
+    namespaceName: 
+    className: EntityComponentPlayerLink
+  - hash:
+      serializedVersion: 2
+      Hash: 84fd5b58131005680184ae89163ce396
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 275dc6493d45e38624c78d3863da376c
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 079f8bbb032c5137806627bae6787f1f
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: ec0d35329484cbf83a42d8dd297fe94b
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: a049c5dd35cb574ae69ebee47a5f1bb8
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 3813539dbbd222831298ae93f76f1e38
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: 488f3922fa1ec8f7d72cbb04b88bf18d
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: a99265337bbcb574a8c61bbdc198821a
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 31666030fd51e4173e4cae669f8984e5
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: 560346f4cbb7006f1b0bb6c77805d7ec
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: 98ad84ab9a7070e8ba3b6a616a057e2d
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 96f2309663796de0137da7344709f4a8
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 5b47c667a93e350389d0f06f9be40d9d
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 240a44072d406174c464da5916816589
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: aa0d9690d4fcf762950bd9364343ca93
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 0e4ecf96cd149632a6c15b13dedeaaa7
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: 285b9728cb2452ee51c717d0f19e8350
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineConfiner2D
+  - hash:
+      serializedVersion: 2
+      Hash: 81c1ae8a097b2ae92f03307a9a3d2771
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: c8efb8be0478240d4791acc3735f449b
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: 43ba8d6499e36926549225e81183d2ca
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 65b8d80dea0932c164a60cf0ffe597ef
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: 76985d05e160474a34860b693b206ee2
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: a013bd07781ea71be78aca4d84398e85
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 007cdf5f8025adc0b0d6bd71e664c865
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 674f86f72fc0bf1ef8d192a4dea794c8
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 5321f58daa5797b2eac77b17ea0bb568
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 70373e18181a2229c9ec8448873d7545
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 769f5e9c16ce785feedf230d7f91392f
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 7dee1d3c1d776b807847bc05d2a399d1
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: 0ccd3dafcf8319e223afdb4ffed425f4
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 85f24827eddd27f43d0c2c836b171707
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: a86c76e3081313bbddd26f2d2c1c6830
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 4bf8d6f446d3cafb03a885a5cf6f2cd9
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 5c07dd30a788898a98f349bde9e84e19
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 0515d3107a65fdbab3ad88c2c94de99f
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 07ac5abbf1211711231ba9fc21c550e6
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: cacf61280eff55ba0f02a0f286c959ba
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: ad7a5ffad8a32193d069882ae204e288
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: a1936c8dd11adbfb9defff5f8b6a9967
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 411dca89ce6c84e1ee77e2edd6d26208
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c4cd63f10b16ed4d4ae3c19f0ab18f0d
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 09a9ebb3299853f8a1d66f750e11097e
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 8222243fab48a9bfee1ae736fccd9e84
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: efd02e05d05bad651e8a5a2d1836f6cb
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: cce88ec4737eb3cf0faab402148b7c4e
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 1de42070c8cfb5ce0dd077efe6147882
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 11d65a9119626daae656690fd1fb8d1e
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 9a6bfc1bbbd2b31fc470c7ce85567266
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: e636708ac1677b6f3be0cafe31e1bf77
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 6c33792641855f696d99f5e47c0c1105
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerHandler
+  platform: 19
+  scenePathNames:
+  - Assets/Photon/QuantumDemo/Menu/Menu.unity
+  - Assets/Photon/QuantumDemo/Menu/MenuAuto.unity
+  - Assets/Photon/QuantumDemo/Game/Game.unity
+  playerPath: D:/Tar/Game For Practice/LearnedPhotonQuantum/BuildTest/quantum.unity.exe
